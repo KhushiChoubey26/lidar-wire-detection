@@ -1,0 +1,38 @@
+# virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# build / packaging
+*.egg-info/
+dist/
+build/
+
+# test / coverage cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS metadata
+.DS_Store
+
+# data files (not tracked in repo — place in project root manually)
+*.parquet
+
+# company assessment brief (confidential)
+Python Developer - Technical Test.docx
+copyright.txt
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# notebook outputs (optional — remove this line to commit saved outputs)
+# *.ipynb  # keeping notebook tracked so reviewers see outputs inline
+
+# editor
+.idea/
+.vscode/
+*.swp
